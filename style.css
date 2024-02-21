@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+.timeline-container {
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.period h2 {
+    color: #333;
+}
+.period ul {
+    list-style-type: none;
+    padding: 0;
+}
+.period ul li {
+    margin-bottom: 10px;
+    padding-left: 20px;
+    position: relative;
+}
+.period ul li:before {
+    content: '';
+    background-color: #333;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    top: 5px;
+}
+@media (max-width: 600px) {
+    .timeline-container {
+        padding: 10px;
+    }
+}
