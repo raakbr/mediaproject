@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timeline of Hoaxes and Events</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="timeline-container">
+    <!-- Ancient Period -->
+    <section class="period">
+        <h2>Ancient Period</h2>
+        <ul>
+            <li><strong>5th Century BCE:</strong> The Trojan Horse...</li>
+            <li><strong>4th Century BCE:</strong> The Oracle of Delphi...</li>
+        </ul>
+    </section>
+    
+    <!-- Add more periods following the same structure -->
+    
+    <!-- Early 21st Century -->
+    <section class="period">
+        <h2>Early 21st Century</h2>
+        <ul>
+            <li><strong>2001:</strong> The Tourist Guy...</li>
+            <!-- Add more events for the period -->
+        </ul>
+    </section>
+
+    <!-- Footer or additional content here -->
+</div>
+</body>
+</html>
